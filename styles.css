@@ -1,1 +1,29 @@
+:root {
+    --text: #FFFFFF;
+    --buttons: #6dcff6;
+    --smalltext: #323337;
+    --black: #212126;
+}
+
+html{
+  background-color:var(--black);
+}
+
+h2,h3,h4{
+  font-family:Century Gothic;
+  color:var(--text);
+}
+h1{
+  font-family:Century Gothic;
+  text-decoration:bold;
+  color:var(--text);
+}
+p{
+  font-family:Century Gothic;
+  color:var(--text);
+}
+.socials {
+  
+  display: block;
+}
 
