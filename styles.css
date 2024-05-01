@@ -1,29 +1,90 @@
 :root {
-    --text: #FFFFFF;
-    --buttons: #6dcff6;
-    --smalltext: #323337;
-    --black: #212126;
+  --text: #ffffff;
+  --buttons: #6dcff6;
+  --smalltext: #323337;
+  --black: #212126;
+  --navy: #202a44;
+  --babyblue: #6dcff6;
+}
+#site {
+  background-color: var(--navy);
+  border-radius: 30px;
+  margin: 10px;
+  padding: 10px;
+  padding-left: 20px;
 }
 
-html{
-  background-color:var(--black);
+html {
+  background-color: black;
+}
+h2,
+h3,
+h4 {
+  font-family: "Century Gothic", sans-serif;
+  color: var(--text);
 }
 
-h2,h3,h4{
-  font-family:Century Gothic;
-  color:var(--text);
+h1 {
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold; /* Use font-weight instead of text-decoration */
+  color: var(--text);
 }
-h1{
-  font-family:Century Gothic;
-  text-decoration:bold;
-  color:var(--text);
+
+p {
+  font-family: "Century Gothic", sans-serif;
+  color: var(--text);
 }
-p{
-  font-family:Century Gothic;
-  color:var(--text);
+
 }
-.socials {
-  
+#socials {
+  text-align: center;
+  align-items: right;
+  margin: 0px 0px 0px auto;
   display: block;
 }
 
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  border-radius: 7px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#welcome {
+  padding: 30px;
+  margin: 30px;
+}
