@@ -1,3 +1,5 @@
+/* styles.css */
+
 :root {
   --text: #ffffff;
   --buttons: #6dcff6;
@@ -6,6 +8,7 @@
   --navy: #202a44;
   --babyblue: #6dcff6;
 }
+
 #site {
   background-color: var(--navy);
   border-radius: 30px;
@@ -17,6 +20,7 @@
 html {
   background-color: black;
 }
+
 h2,
 h3,
 h4 {
@@ -26,7 +30,7 @@ h4 {
 
 h1 {
   font-family: "Century Gothic", sans-serif;
-  font-weight: bold; /* Use font-weight instead of text-decoration */
+  font-weight: bold;
   color: var(--text);
 }
 
@@ -35,21 +39,19 @@ p {
   color: var(--text);
 }
 
-}
 #socials {
-  text-align: center;
-  align-items: left;
-  margin: 0px 0px 0px auto;
-  display: block;
+  text-align: centre;
+  margin-top: 10px;
+  margin-left:30px;
 }
 
 button {
   display: inline-block;
   border-radius: 4px;
-  background-color: black;
+  background-color: var(--black);
   border: none;
-  border-radius: 7px;
-  color: #ffffff;
+  border-radius: 8px;
+  color: var(--text);
   text-align: center;
   font-size: 17px;
   padding: 10px;
@@ -89,12 +91,17 @@ button:hover span:after {
   margin: 30px;
 }
 
-#links{
-  text-decoration:none;
-  color:white;
+#links {
+  text-decoration: none;
+  color: white;
 }
 
-#links:hover{
-  text-decoration:underline;
-  color:white;
+#links:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+footer {
+  padding: 30px;
+  margin-top: 30px;
 }
