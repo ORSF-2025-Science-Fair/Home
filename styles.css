@@ -38,7 +38,7 @@ p {
 }
 #socials {
   text-align: center;
-  align-items: right;
+  align-items: left;
   margin: 0px 0px 0px auto;
   display: block;
 }
@@ -87,4 +87,14 @@ button:hover span:after {
 #welcome {
   padding: 30px;
   margin: 30px;
+}
+
+#links{
+  text-decoration:none;
+  color:white;
+}
+
+#links:hover{
+  text-decoration:underline;
+  color:white;
 }
