@@ -105,3 +105,16 @@ footer {
   padding: 30px;
   margin-top: 30px;
 }
+
+#qrcode {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Adjusting the size of the QR code image */
+#qrcode img {
+  width: 100px;
+  height: 100px;
+}
